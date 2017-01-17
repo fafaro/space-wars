@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SpaceWars", "SpaceWars.vcxproj", "{B2735078-0AE5-4552-BF3D-48E92E5136A9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3F696AE8-42DA-41CA-BC8E-768A80FD38CF} = {3F696AE8-42DA-41CA-BC8E-768A80FD38CF}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FSDK", "..\FSDK\build\FSDK\FSDK.vcxproj", "{3F696AE8-42DA-41CA-BC8E-768A80FD38CF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tinyxml", "..\tinyxml\tinyxml_lib.vcxproj", "{C406DAEC-0886-4771-8DEA-9D7329B46CC1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B2735078-0AE5-4552-BF3D-48E92E5136A9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B2735078-0AE5-4552-BF3D-48E92E5136A9}.Debug|Win32.Build.0 = Debug|Win32
+		{B2735078-0AE5-4552-BF3D-48E92E5136A9}.Release|Win32.ActiveCfg = Release|Win32
+		{B2735078-0AE5-4552-BF3D-48E92E5136A9}.Release|Win32.Build.0 = Release|Win32
+		{3F696AE8-42DA-41CA-BC8E-768A80FD38CF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3F696AE8-42DA-41CA-BC8E-768A80FD38CF}.Debug|Win32.Build.0 = Debug|Win32
+		{3F696AE8-42DA-41CA-BC8E-768A80FD38CF}.Release|Win32.ActiveCfg = Release|Win32
+		{3F696AE8-42DA-41CA-BC8E-768A80FD38CF}.Release|Win32.Build.0 = Release|Win32
+		{C406DAEC-0886-4771-8DEA-9D7329B46CC1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C406DAEC-0886-4771-8DEA-9D7329B46CC1}.Debug|Win32.Build.0 = Debug|Win32
+		{C406DAEC-0886-4771-8DEA-9D7329B46CC1}.Release|Win32.ActiveCfg = Release|Win32
+		{C406DAEC-0886-4771-8DEA-9D7329B46CC1}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
